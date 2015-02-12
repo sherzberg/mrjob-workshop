@@ -1,0 +1,9 @@
+1 dog
+17 goat
+1 cat
+66 dog
+3 cat
+8 llama
+14 rat
+18 bat
+2 bat

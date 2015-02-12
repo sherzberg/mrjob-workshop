@@ -16,7 +16,7 @@ work properly.
 Now run the test:
 
 {% highlight bash %}
-{% include first_job/python_tests.sh %}
+$ {% include first_job/python_tests.sh %}
 {% endhighlight %}
 
 ```bash

@@ -37,7 +37,7 @@ were seen):
 Finally, lets run the job:
 
 {% highlight bash %}
-{% include multistep_job/run.sh %}
+$ {% include multistep_job/run.sh %}
 {% endhighlight %}
 
 Check the output, you should get something like:

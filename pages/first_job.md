@@ -21,7 +21,7 @@ this as the contents:
 Finally, lets run the job:
 
 {% highlight bash %}
-{% include first_job/run.sh %}
+$ {% include first_job/run.sh %}
 {% endhighlight %}
 
 Check the output, you should get something like:

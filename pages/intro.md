@@ -34,5 +34,6 @@ Why mrjob?
 * Little setup overhead
 * Run, test and debug locally
 * Local, hadoop and EMR runners with no code changes
+* EMR job flow reuse (saves you money)
 
 *[https://pythonhosted.org/mrjob/guides/why-mrjob.html#overview](https://pythonhosted.org/mrjob/guides/why-mrjob.html#overview)*

@@ -4,26 +4,35 @@ title: Introduction
 order: 1
 ---
 
-This website is/has been used for a `mrjob` workshop.
+mapreduce
+---------
 
-Conventions
------------
+mapreduce is all about filter and sorting in a distributed fashion (obviously this is not a great definition).
 
-Throughout the workshop, there will be blocks where you type as file contents
-and others where you type in a shell prompt.
+![mapreduce diagram](https://cloud.google.com/appengine/docs/python/images/mapreduce_mapshuffle.png)
 
-File contents looks like:
+With large datasets, the benefit of mapreduce can be seen in performing the operations in a distributed computing environment.
 
-```text
-This is
-some
-file contents
-```
+Some example uses of mapreduce:
 
-Things you should execute should start with `$` prompts:
+* Distributed sort
+* Counting frequencies
+* Graph based analysis (friends of friends)
+* Calculating aggregates
+* Duplicate detection (similarity detection)
 
-```bash
-$ python --version
-```
+*[http://www.datasalt.com/2012/12/mapreduce-real-use-cases/](http://www.datasalt.com/2012/12/mapreduce-real-use-cases/)*
 
-The `$` is a subtle difference, but should be enough to distinguish.
+mrjob
+-----
+
+mrjob facilitates writing mapreduce jobs in python and running the jobs in many different ways.
+
+Why mrjob?
+
+* Python!
+* Little setup overhead
+* Run, test and debug locally
+* Local, hadoop and EMR runners with no code changes
+
+*[https://pythonhosted.org/mrjob/guides/why-mrjob.html#overview](https://pythonhosted.org/mrjob/guides/why-mrjob.html#overview)*

@@ -5,3 +5,8 @@
     [ $status -eq 0 ]
     [[ ${output} =~ "35" ]]
 }
+
+@test "wordcount.py tests pass" {
+    run bash python_tests.sh
+    [ $status -eq 0 ]
+}

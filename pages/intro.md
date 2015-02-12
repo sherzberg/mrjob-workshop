@@ -23,6 +23,8 @@ Some example uses of mapreduce:
 
 *[http://www.datasalt.com/2012/12/mapreduce-real-use-cases/](http://www.datasalt.com/2012/12/mapreduce-real-use-cases/)*
 
+*[http://stevekrenzel.com/finding-friends-with-mapreduce](http://stevekrenzel.com/finding-friends-with-mapreduce)*
+
 mrjob
 -----
 

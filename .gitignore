@@ -1,0 +1,5 @@
+_site
+.pid
+.log
+mrjob_env
+.env

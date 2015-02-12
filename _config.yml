@@ -1,0 +1,7 @@
+name: mrjob Workshop
+url: "http://sherzberg.github.io/mrjob-workshop"
+baseurl: ""
+
+markdown: redcarpet
+permalinks: pretty
+highlighter: pygments

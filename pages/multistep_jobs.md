@@ -15,6 +15,7 @@ We will see a few new concepts:
  * multistep jobs
  * `command` steps
  * `pre_filters`
+ * local vs inline runner
 
 Setup
 -----
